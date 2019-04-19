@@ -26,7 +26,7 @@ function acp#enable()
   if g:acp_mappingDriven
     call s:mapForMappingDriven()
   else
-    autocmd AcpGlobalAutoCommand CursorMovedI * call s:feedPopup()
+    autocmd AcpGlobalAutoCommand TextChangedI * call s:feedPopup()
   endif
 
   nnoremap <silent> i i<C-r>=<SID>feedPopup()<CR>
