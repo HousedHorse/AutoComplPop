@@ -28,10 +28,6 @@ function acp#enable()
   else
     autocmd AcpGlobalAutoCommand TextChangedI * call s:feedPopup()
   endif
-
-  nnoremap <silent> i i<C-r>=<SID>feedPopup()<CR>
-  nnoremap <silent> a a<C-r>=<SID>feedPopup()<CR>
-  nnoremap <silent> R R<C-r>=<SID>feedPopup()<CR>
 endfunction
 
 "
@@ -197,7 +193,7 @@ function acp#onPopupPost()
           \                                                 : "\<C-p>\<Down>")
   endif
   let s:iBehavs += 1
-  if len(s:behavsCurrent) > s:iBehavs 
+  if len(s:behavsCurrent) > s:iBehavs
     call s:setCompletefunc()
     return printf("\<C-e>%s\<C-r>=acp#onPopupPost()\<CR>",
           \       s:behavsCurrent[s:iBehavs].command)

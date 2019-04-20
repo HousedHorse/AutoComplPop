@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+<BS>	autoload/acp.vim	/^    inoremap <silent> <expr> <BS>  acp#onBs()$/;"	m
+<BS>	autoload/acp.vim	/^  inoremap <BS>  <Nop> | iunmap <BS>$/;"	m
+<C-h>	autoload/acp.vim	/^    inoremap <silent> <expr> <C-h> acp#onBs()$/;"	m
+<C-h>	autoload/acp.vim	/^  inoremap <C-h> <Nop> | iunmap <C-h>$/;"	m
+AcpDisable	plugin/acp.vim	/^command! -bar -narg=0 AcpDisable call acp#disable()$/;"	c
+AcpEnable	plugin/acp.vim	/^command! -bar -narg=0 AcpEnable  call acp#enable()$/;"	c
+AcpGlobalAutoCommand	autoload/acp.vim	/^  augroup AcpGlobalAutoCommand$/;"	a
+AcpLock	plugin/acp.vim	/^command! -bar -narg=0 AcpLock    call acp#lock()$/;"	c
+AcpUnlock	plugin/acp.vim	/^command! -bar -narg=0 AcpUnlock  call acp#unlock()$/;"	c
+AutoComplPopDisable	plugin/acp.vim	/^command! -bar -narg=0 AutoComplPopDisable AcpDisable$/;"	c
+AutoComplPopEnable	plugin/acp.vim	/^command! -bar -narg=0 AutoComplPopEnable  AcpEnable$/;"	c
+AutoComplPopLock	plugin/acp.vim	/^command! -bar -narg=0 AutoComplPopLock    AcpLock$/;"	c
+AutoComplPopUnlock	plugin/acp.vim	/^command! -bar -narg=0 AutoComplPopUnlock  AcpUnlock$/;"	c
+R	autoload/acp.vim	/^  nnoremap R <Nop> | nunmap R$/;"	m
+a	autoload/acp.vim	/^  nnoremap a <Nop> | nunmap a$/;"	m
+acp#completeSnipmate	autoload/acp.vim	/^function acp#completeSnipmate(findstart, base)$/;"	f
+acp#disable	autoload/acp.vim	/^function acp#disable()$/;"	f
+acp#enable	autoload/acp.vim	/^function acp#enable()$/;"	f
+acp#lock	autoload/acp.vim	/^function acp#lock()$/;"	f
+acp#meetsForCssOmni	autoload/acp.vim	/^function acp#meetsForCssOmni(context)$/;"	f
+acp#meetsForFile	autoload/acp.vim	/^function acp#meetsForFile(context)$/;"	f
+acp#meetsForHtmlOmni	autoload/acp.vim	/^function acp#meetsForHtmlOmni(context)$/;"	f
+acp#meetsForKeyword	autoload/acp.vim	/^function acp#meetsForKeyword(context)$/;"	f
+acp#meetsForPerlOmni	autoload/acp.vim	/^function acp#meetsForPerlOmni(context)$/;"	f
+acp#meetsForPythonOmni	autoload/acp.vim	/^function acp#meetsForPythonOmni(context)$/;"	f
+acp#meetsForRubyOmni	autoload/acp.vim	/^function acp#meetsForRubyOmni(context)$/;"	f
+acp#meetsForSnipmate	autoload/acp.vim	/^function acp#meetsForSnipmate(context)$/;"	f
+acp#meetsForXmlOmni	autoload/acp.vim	/^function acp#meetsForXmlOmni(context)$/;"	f
+acp#onBs	autoload/acp.vim	/^function acp#onBs()$/;"	f
+acp#onPopupCloseSnipmate	autoload/acp.vim	/^function acp#onPopupCloseSnipmate()$/;"	f
+acp#onPopupPost	autoload/acp.vim	/^function acp#onPopupPost()$/;"	f
+acp#unlock	autoload/acp.vim	/^function acp#unlock()$/;"	f
+g:loaded_acp	plugin/acp.vim	/^let g:loaded_acp = 1$/;"	v
+g:loaded_autoload_acp	autoload/acp.vim	/^let g:loaded_autoload_acp = 1$/;"	v
+i	autoload/acp.vim	/^  nnoremap i <Nop> | nunmap i$/;"	m
+s:GROUP0	autoload/acp.vim	/^let s:GROUP0 = 0$/;"	v
+s:GROUP1	autoload/acp.vim	/^let s:GROUP1 = 1$/;"	v
+s:behavsCurrent	autoload/acp.vim	/^let s:behavsCurrent = []$/;"	v
+s:defineOption	plugin/acp.vim	/^function s:defineOption(name, default)$/;"	f
+s:feedPopup	autoload/acp.vim	/^function s:feedPopup()$/;"	f
+s:finishPopup	autoload/acp.vim	/^function s:finishPopup(fGroup1)$/;"	f
+s:getCurrentText	autoload/acp.vim	/^function s:getCurrentText()$/;"	f
+s:getCurrentWord	autoload/acp.vim	/^function s:getCurrentWord()$/;"	f
+s:getMatchingSnipItems	autoload/acp.vim	/^function s:getMatchingSnipItems(base)$/;"	f
+s:getPostText	autoload/acp.vim	/^function s:getPostText()$/;"	f
+s:iBehavs	autoload/acp.vim	/^let s:iBehavs = 0$/;"	v
+s:isModifiedSinceLastCall	autoload/acp.vim	/^function s:isModifiedSinceLastCall()$/;"	f
+s:lockCount	autoload/acp.vim	/^let s:lockCount = 0$/;"	v
+s:makeCurrentBehaviorSet	autoload/acp.vim	/^function s:makeCurrentBehaviorSet()$/;"	f
+s:makeDefaultBehavior	plugin/acp.vim	/^function s:makeDefaultBehavior()$/;"	f
+s:makeSnipmateItem	autoload/acp.vim	/^function s:makeSnipmateItem(key, snip)$/;"	f
+s:mapForMappingDriven	autoload/acp.vim	/^function s:mapForMappingDriven()$/;"	f
+s:restoreTempOptions	autoload/acp.vim	/^function s:restoreTempOptions(group)$/;"	f
+s:setCompletefunc	autoload/acp.vim	/^function s:setCompletefunc()$/;"	f
+s:setTempOption	autoload/acp.vim	/^function s:setTempOption(group, name, value)$/;"	f
+s:snipItems	autoload/acp.vim	/^let s:snipItems = {}$/;"	v
+s:tempOptionSet	autoload/acp.vim	/^let s:tempOptionSet = [{}, {}]$/;"	v
+s:unmapForMappingDriven	autoload/acp.vim	/^function s:unmapForMappingDriven()$/;"	f
